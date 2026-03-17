@@ -1,7 +1,7 @@
 # Portfolio QA – Elisabet García García
 Este portafolio web muestra mis proyectos de **QA**. Incluye un **formulario de contacto** conectado a una API que permite guardar los datos del formulario en la base de datos y mostrarlos en la página de Admin.
 
-🔗 [Ver Web Portfolio QA](file:///Users/loritoo/Documents/GitHub/portfolio-qa/index.html)
+🔗 [Ver Web Portfolio QA](https://elisabetqa-org.github.io/portfolio-qa/)
 
 
 ## ⚙️ Funcionalidades principales
