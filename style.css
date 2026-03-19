@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: rgb(7, 167, 153);
+  background-image: url("Fondo Portfolio2.jpeg");
   color: white;
   padding: 5rem;
   text-align: center;
@@ -95,7 +95,7 @@ select {
 button {
   width: 100%;
   padding: 1rem;
-  background-color: #02463a;
+  background-color: #11e0ba;
   color: white;
   border: none;
   border-radius: 0.5rem;
