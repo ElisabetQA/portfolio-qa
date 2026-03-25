@@ -27,7 +27,7 @@ nav {
 nav ul {
   padding: 0;
   margin: 0;
-    background-color: white;
+    background-color: #f2f8f5;
   
 }
 
@@ -52,6 +52,12 @@ h1 {
   margin-bottom: 1rem;
 }
 
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #620aaf;
+}
+
 p {
   font-size: 1rem;
   margin-bottom: 1rem;
@@ -70,11 +76,7 @@ section {
   margin-bottom: 3rem;
 }
 
-h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  color: #620aaf;
-}
+
 
 /* FORMULARIO */
 form {
