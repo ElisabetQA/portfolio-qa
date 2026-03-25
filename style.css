@@ -67,7 +67,7 @@ h3 {
 
 h4 {
   font-size: 1rem;
-  margin-bottom:  0%;
+  margin-bottom: 0%;
   margin-left: 20px;
 }
 
@@ -85,10 +85,17 @@ p.b {
 a {
   color: #ea07ae;
   text-decoration: none;
+
 }
 
 a:hover {
+  color: rgb(157, 0, 255);
   text-decoration: underline;
+}
+
+a:hover.fa {
+  color: aqua;
+    text-decoration: none;
 }
 
 section {
@@ -112,6 +119,7 @@ select {
   border: 1px solid #ea07ae78;
   border-radius: 0.9rem;
   background-color: #fdfdfd;
+  box-sizing: border-box;
 }
 
 button {
@@ -120,8 +128,9 @@ button {
   background-color: #620aaf;
   color: white;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 0.9rem;
   font-size: 1rem;
+  box-sizing: border-box;
 }
 
 footer {
@@ -137,7 +146,7 @@ table {
   border-collapse: collapse;
   table-layout: fixed;
   /* CLAVE */
-  font-family: Arial, sans-serif;
+  font-family: Verdana, Arial, Helvetica;
 }
 
 th,
