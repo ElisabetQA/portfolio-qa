@@ -13,6 +13,15 @@ header {
   text-align: center;
 }
 
+
+div {
+  background-color: #ffffff;
+  text-align: left;
+  padding: 1.5rem 4rem 1.5rem 4rem;
+  border-radius: 1rem;
+  margin: 4rem
+}
+
 main {
   padding: 5rem;
   text-align: left;
@@ -77,11 +86,13 @@ h4 {
 p.a {
   font-size: 1rem;
   margin-bottom: 1rem;
+ padding-bottom: 1rem;
 }
 
 p.b {
   font-size: 1rem;
-  margin: 2px;
+  margin: 1px;
+   padding-bottom: 0%;
 }
 
 a {
@@ -97,7 +108,7 @@ a:hover {
 
 a:hover.fa {
   color: aqua;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 section {
