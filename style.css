@@ -45,8 +45,9 @@ nav ul li {
   display: inline-block;
   margin: 0rem;
   font-size: 1rem;
-  padding: 1rem;
+  padding: 0.2rem;
   border-radius: 0.5rem;
+ 
 
 }
 
@@ -55,6 +56,9 @@ nav ul li {
   nav ul li {
     display: block;
     margin: 0.8rem 0;
+     background-color: #ffffff;
+  color: aqua;
+  text-decoration: none;
   }
 }
 
@@ -180,7 +184,21 @@ thead {
 
   th,
   td {
-    font-size: 12px;
-    padding: 4px;
+    font-size: 10px;
+    padding: 1px;
   }
+
+  main {
+    padding: 1rem;
+  }
+
+  div {
+    padding: 1.2rem !important;
+    margin: 1rem !important;
+  }
+
+  header {
+    padding: 2rem 1rem;
+  }
+
 }
