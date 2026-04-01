@@ -26,4 +26,4 @@ SELECT * FROM formportfolio WHERE email LIKE '%gmail%' AND motivo= 'oferta de tr
 SELECT * FROM formportfolio WHERE edad >30 AND mensaje LIKE '%test%';
 
 -- Mostrar los datos ordenados por email de la A a la Z.
-SELECT * FROM formportfolio ORDER BY email ASC
+SELECT * FROM formportfolio ORDER BY email ASC;
