@@ -82,46 +82,46 @@
 }</pre>
     <p>El <code>Key</code> lo obtienes desde Supabase en tu proyecto &gt; Settings &gt; API Keys.</p>
   
-    <h2>GET - form portfolio - Obtener todos </h2>
-    <p><span class="method GET">GET</span> <code>https://upxlzrmobsseflrmesgq.supabase.co/rest/v1/form portfolio</code></p>
-    <p>Devuelve todos los registros de la tabla <code>form portfolio</code>.</p>
+    <h2>GET - formportfolio - Obtener todos </h2>
+    <p><span class="method GET">GET</span> <code>https://upxlzrmobsseflrmesgq.supabase.co/rest/v1/formportfolio</code></p>
+    <p>Devuelve todos los registros de la tabla <code>formportfolio</code>.</p>
 
-    <h2>GET - form portfolio - Filtrar por campos</h2>
-    <p><span class="method GET">GET</span> <code>https://upxlzrmobsseflrmesgq.supabase.co/rest/v1/form portfolio?campo=eq.valor&amp;campo2=eq.valor2</code></p>
+    <h2>GET - formportfolio - Filtrar por campos</h2>
+    <p><span class="method GET">GET</span> <code>https://upxlzrmobsseflrmesgq.supabase.co/rest/v1/formportfolio?campo=eq.valor&amp;campo2=eq.valor2</code></p>
     <p>Filtra los registros donde campo sea igual a <code>&lt;valor&gt;</code>.</p>
     <p>Campos disponibles para filtrar:</p>
     <ul>
-      <li>nombre</li><li>email</li><li>edad</li><li>motivo</li><li>mensaje</li>
+      <li>id</li><li>nombre</li><li>email</li><li>motivo</li><li>edad</li><li>mensaje</li>
     </ul>
 
-    <h2>POST - form portfolio - Crear nuevo</h2>
-    <p><span class="method POST">POST</span> <code>https://upxlzrmobsseflrmesgq.supabase.co/rest/v1/form portfolio</code></p>
+    <h2>POST - formportfolio - Crear nuevo</h2>
+    <p><span class="method POST">POST</span> <code>https://upxlzrmobsseflrmesgq.supabase.co/rest/v1/formportfolio</code></p>
     <p>Crea un nuevo registro. Campos disponibles:</p>
     <ul>
-      <li><code>nombre</code> - opcional</li><li><code>email</code> -  (obligatorio)</li><li><code>edad</code> - opcional</li><li><code>motivo</code> -  (obligatorio)</li><li><code>mensaje</code> -  (obligatorio)</li>
+      <li><code>nombre</code> - opcional</li><li><code>email</code> -  (obligatorio)</li><li><code>motivo</code> -  (obligatorio)</li><li><code>edad</code> - opcional</li><li><code>mensaje</code> -  (obligatorio)</li>
     </ul>
     <p><strong>Body de ejemplo:</strong></p>
     <pre>{
   "nombre": "",
   "email": "",
-  "edad": "",
   "motivo": "",
+  "edad": "",
   "mensaje": ""
 }</pre>
 
-    <h2>PATCH - form portfolio - Editar </h2>
-    <p><span class="method PATCH">PATCH</span> <code>https://upxlzrmobsseflrmesgq.supabase.co/rest/v1/form portfolio?id=eq.&lt;id&gt;</code></p>
+    <h2>PATCH - formportfolio - Editar </h2>
+    <p><span class="method PATCH">PATCH</span> <code>https://upxlzrmobsseflrmesgq.supabase.co/rest/v1/formportfolio?id=eq.&lt;id&gt;</code></p>
     <p>Actualiza el registro con el ID especificado. Puedes enviar uno o varios campos en el body:</p>
     <pre>{
   "nombre": "<nuevo string="">",
   "email": "<nuevo string="">",
-  "edad": "<nuevo string="">",
   "motivo": "<nuevo string="">",
+  "edad": "<nuevo string="">",
   "mensaje": "<nuevo string="">"
 }</nuevo></nuevo></nuevo></nuevo></nuevo></pre>
 
-    <h2>DELETE - form portfolio - Eliminar </h2>
-    <p><span class="method DELETE">DELETE</span> <code>https://upxlzrmobsseflrmesgq.supabase.co/rest/v1/form portfolio?id=eq.&lt;id&gt;</code></p>
+    <h2>DELETE - formportfolio - Eliminar </h2>
+    <p><span class="method DELETE">DELETE</span> <code>https://upxlzrmobsseflrmesgq.supabase.co/rest/v1/formportfolio?id=eq.&lt;id&gt;</code></p>
     <p>Elimina el registro con el ID especificado.</p>
 
 
