@@ -1,7 +1,7 @@
 -- Cambiar el email de laura por lauratest@gmail.com.
 UPDATE formportfolio
 SET email = 'lauratest@gmail.com'
-WHERE id = 10;
+WHERE nombre = 'laura';
 
 -- Cambiar edad 20 por 21.
 UPDATE formportfolio
