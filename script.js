@@ -1,5 +1,5 @@
-// 1. CAMBIAR POR URL Y KEY DE TU API
-const SUPABASE_URL = 'https://upxlzrmobsseflrmesgq.supabase.co/rest/v1/formportfolio'; //URL de la API, en este caso es la url de spabase pero peude ser cualquier API
+// 1. CAMBIAR POR URL Y KEY DE TU API //URL de la API, en este caso es la url de suabase pero peude ser cualquier API
+const SUPABASE_URL = 'https://upxlzrmobsseflrmesgq.supabase.co/rest/v1/formportfolio'; 
 const SUPABASE_API_KEY = 'sb_publishable_y3RYCBxHVS5azz_J4vD0HA_4t_X2_ar';
 
 
